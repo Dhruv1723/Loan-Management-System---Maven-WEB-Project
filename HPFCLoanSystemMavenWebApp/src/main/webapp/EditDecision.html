@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="styleupdatedecision.css">
+</head>
+<body>
+
+<form class="wrapper" action="UpdateServlet1" method="post" autocomplete="off">
+	<h1 class="heading">Welcome to Update Decision Form</h1>
+	<hr>
+	<p class="para">Please Provide Details to Update Decision</p>
+	<div class="form"> 
+
+		<div class="inputfield">
+			<label class="label"><strong>Customer ID: </strong></label>	
+			<input type="number" id="id" name="id">
+		</div>
+		<div class="dropdown">
+			<label class="label"><strong>Decision: </strong></label>
+			<select name="decision" id="drop">
+				<option value="Approve">Approve
+				<option value="Deny">Deny
+			</select>	
+		</div>
+		<div class="btn">
+			<input type="submit" value="Update">
+		</div>
+	</div>	
+</form>
+
+</body>
+</html>

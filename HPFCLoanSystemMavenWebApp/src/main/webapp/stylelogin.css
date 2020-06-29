@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: sans-serif;
+}
+body{
+	background-image: url(https://www.splitshire.com/wp-content/uploads/2014/11/SplitShire-05072-1800x1200.jpg);
+	background-size: cover;  
+}
+.wrapper{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-width: 400px;
+	width: 100%;
+	background: #fff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px;
+	margin: auto;
+}
+.wrapper h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #332902;
+}
+.wrapper .inputfield{
+	margin-bottom: 13px;
+}
+.wrapper .inputfield input[type="text"],
+.wrapper .inputfield input[type="password"]
+{
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	padding: 10px;
+	border-radius: 2px;
+}
+.wrapper .btn input[type="submit"]{
+	margin-top: 12px;
+	border: none;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	width: 50%;
+	margin-left: 25%;
+	color: #fff;
+	background-color: #03a9f4;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.wrapper hr
+{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	margin-top: 25px;
+}
+.wrapper a
+{
+	text-decoration: none;
+}
+.wrapper p
+{
+	font-weight: bold;
+	margin-top: 45px;
+	text-align: center;
+	cursor: pointer;
+}

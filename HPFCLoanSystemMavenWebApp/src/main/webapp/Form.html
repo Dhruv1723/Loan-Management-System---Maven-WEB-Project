@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="styleloan.css">
+<script src="scriptloan.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+	<h2>Loan Application Form</h2>
+	<div id="errormsg"></div>
+
+	<form id="myform" onsubmit="return validation()" action="NewCustomerServlet" method="post" autocomplete="off">
+		<div class="inputfield">
+			<input type="text" id="name" name="name" placeholder="Name">
+		</div>
+		<div class="inputfield">
+			<input type="text" id="username" name="username" placeholder="Username">
+		</div>
+		<div class="inputfield">
+			<input type="password" id="password" name="password" placeholder="Password">
+		</div>
+		<div class="inputfield">
+			<input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
+		</div>
+		<div class="inputfield">
+			<input type="text" id="age" name="age" placeholder="Age">
+		</div>
+		<div class="inputfield">
+			<input type="text" id="address" name="address" placeholder="Address">
+		</div>
+		<div class="inputfield">
+			<input type="number" id="number" name="number" placeholder="Contact Number">
+		</div>
+		<div class="inputfield">
+			<input type="number" id="amount" name="amount" placeholder="Loan Amount">
+		</div>
+		<div class="inputfield">
+			<input type="number" id="year" name="year" placeholder="Duration of Loan (Years)">
+		</div>
+		<div class="btn">
+			<input type="submit" value="Apply Now">
+		</div>
+
+	</form>
+
+</div>
+</body>
+</html>
+
+
